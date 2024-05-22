@@ -14,7 +14,8 @@ import java.util.List;
 @NoArgsConstructor
 public class Quiz {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+
     private Long id; // Corrected from 'Id' to 'id'
     private String quiz;
 
