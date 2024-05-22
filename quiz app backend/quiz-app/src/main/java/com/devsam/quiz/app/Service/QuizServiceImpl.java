@@ -8,4 +8,8 @@ public interface QuizServiceImpl {
     Quiz savequiz(Quiz quiz);
 
     List<Quiz> getAll();
+
+
+
+    void deleteAllQuizzes();
 }

@@ -37,5 +37,9 @@ public class QuizController {
         return commentService.getCommentsByQuizId(quizId);
     }
 
+    @DeleteMapping("/delete")
+    public void deleteAllQuizzes() {
+        quizService.deleteAllQuizzes();
+    }
 
 }
