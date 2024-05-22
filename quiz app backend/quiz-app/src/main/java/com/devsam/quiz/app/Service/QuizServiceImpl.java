@@ -1,11 +1,11 @@
 package com.devsam.quiz.app.Service;
 
-import com.devsam.quiz.app.Entity.quiz;
+import com.devsam.quiz.app.Entity.Quiz;
 
 import java.util.List;
 
 public interface QuizServiceImpl {
-    quiz savequiz(quiz quiz);
+    Quiz savequiz(Quiz quiz);
 
-    List<quiz> getAll();
+    List<Quiz> getAll();
 }
