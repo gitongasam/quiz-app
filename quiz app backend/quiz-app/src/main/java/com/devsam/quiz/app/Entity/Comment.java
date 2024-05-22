@@ -1,5 +1,6 @@
 package com.devsam.quiz.app.Entity;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -19,6 +20,5 @@ public class Comment {
 
     @ManyToOne
     @JoinColumn(name = "quiz_id")
-    @JsonIgnore
     private Quiz quiz;
 }
