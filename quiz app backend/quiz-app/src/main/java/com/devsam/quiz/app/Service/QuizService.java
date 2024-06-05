@@ -33,7 +33,7 @@ public class QuizService implements QuizServiceImpl{
         commentRepository.deleteAll(comments);
 
         // Then delete the quiz
-        quizRepository.deleteAll();
+         quizRepository.deleteAll();
     }
 
 
